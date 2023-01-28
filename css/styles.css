@@ -1,7 +1,12 @@
 h1 {
-    font-family: 'Montserrat-black', sans-serif;
-    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
     line-height: 1.5;
+    color: aliceblue;
+}
+
+body {
+    font-family: 'Montserrat';
 }
 
 .container-fluid {
@@ -10,4 +15,34 @@ h1 {
 
 #title {
     background-color: #ff4c68;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 0 0 1.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.0rem;
+}
+
+/* Download button */
+.download-button {
+    margin: 3% 3% 3% 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+.feature-box {
+    pos
 }
