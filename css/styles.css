@@ -62,7 +62,7 @@ body {
     color: red;
 }
 
-.testimo-image {
+.testimonial-image {
     width:10%;
     border-radius: 60%;
     margin: 20px;
@@ -71,6 +71,10 @@ body {
 .press-image {
     width:30%;
     margin: 20px 20px;
+}
+
+.carousel-item {
+    padding: 10% 15% 5% 15%;    
 }
 
 
@@ -86,6 +90,7 @@ body {
 }
 
 #testimonials {
+    
     text-align: center;
     background-color: #ff4c68;
     color: aliceblue;
