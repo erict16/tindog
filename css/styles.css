@@ -1,8 +1,13 @@
+/* element */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     line-height: 1.5;
     color: aliceblue;
+}
+
+h2 {
+    font-family: "Montserrat";
 }
 
 h3 {
@@ -17,11 +22,9 @@ body {
     padding: 3% 15%;
 }
 
-#title {
-    background-color: #ff4c68;
-}
 
-/* Navigation Bar */
+
+/* Class */
 .navbar {
     padding-bottom: 0 0 1.5rem;
 }
@@ -37,7 +40,6 @@ body {
     font-size: 1.0rem;
 }
 
-/* Download button */
 .download-button {
     margin: 3% 3% 3% 0;
 }
@@ -46,10 +48,7 @@ body {
     width: 60%;
     transform: rotate(25deg);
 }
-/* Feature section */
-#features {
-    padding: 7% 15%;
-}
+
 .feature-box {
     text-align: center;
 }
@@ -61,4 +60,39 @@ body {
 
 .fa-solid:hover {
     color: red;
+}
+
+.testimo-image {
+    width:10%;
+    border-radius: 60%;
+    margin: 20px;
+}
+
+.press-image {
+    width:30%;
+    margin: 20px 20px;
+}
+
+
+
+/* ID */
+
+#features {
+    padding: 7% 15%;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: aliceblue;
+}
+
+#press {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10% 10%;
 }
