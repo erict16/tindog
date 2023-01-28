@@ -42,7 +42,7 @@ body {
     width: 60%;
     transform: rotate(25deg);
 }
-
+/* Feature section */
 .feature-box {
-    pos
+    position: relative;
 }
