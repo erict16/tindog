@@ -101,3 +101,12 @@ body {
     text-align: center;
     padding: 10% 10%;
 }
+
+#pricing {
+    text-align: center;
+    padding: 4% 4%;
+}
+
+.pricing-column {
+    padding: 3% 3% 5% 5%;
+}
