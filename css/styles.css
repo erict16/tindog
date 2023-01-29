@@ -7,37 +7,26 @@ h1 {
     color: aliceblue;
 }
 
-h2 {
+h2, h3, h4{
     font-family: "Montserrat";
-    font-weight: 800;
+    font-weight: 700;
 }
 
-h3 {
-    font-weight: bold;
-}
-
-body {
-    font-family: 'Montserrat';
-}
-
-a:link,
-a:visited {
+a:link, a:visited {
     color: black;
-    padding: 14px 25px;
+    padding: 10px 0px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 }
 
-
+/* Class */
 
 .container-fluid {
     padding: 3% 12%;
     max-height: 20rem;
 }
 
-
-/* Class */
 .navbar {
     padding-bottom: 0 0 1.5rem;
 }
@@ -92,6 +81,10 @@ a:visited {
     padding: 3% 15%;
 }
 
+.pricing-column {
+    padding: 3% 3% 5% 5%;
+}
+
 
 
 /* ID */
@@ -125,29 +118,6 @@ a:visited {
     padding: 4% 4%;
 }
 
-.pricing-column {
-    padding: 3% 3% 5% 5%;
-}
-
-@media (max-width: 1000px) {
-    .title-image {
-        position: static;
-        transform: rotate(0);
-        text-align: center;
-        max-height: 40rem;
-        z-index: -1;
-    }
-    
-    #title {
-        text-align: center;
-    }
-
-    .container-fluid {
-        padding: 3% 12%;
-        max-height: 35rem;
-    }
-}
-
 #cta {
     text-align: center;
     background-color: #ff4c68;
@@ -162,4 +132,24 @@ a:visited {
 
 #social {
     padding: 10px;
+}
+
+/* media (for mobile) */
+@media (max-width: 1000px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        text-align: center;
+        max-height: 40rem;
+        z-index: -1;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .container-fluid {
+        padding: 3% 12%;
+        max-height: 35rem;
+    }
 }
