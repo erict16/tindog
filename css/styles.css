@@ -23,7 +23,6 @@ body {
 }
 
 
-
 /* Class */
 .navbar {
     padding-bottom: 0 0 1.5rem;
@@ -88,7 +87,7 @@ body {
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
-    z-index: ;
+    z-index: 0;
 }
 
 #title {
