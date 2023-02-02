@@ -47,10 +47,10 @@ a:link, a:visited {
 }
 
 .title-image {
-    width:15rem;
+    width:20rem;
     position: absolute;
     right: 23%;
-    top: 30%
+    top: 3rem;
 }
 
 .feature-box {
