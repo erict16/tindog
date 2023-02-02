@@ -1,5 +1,5 @@
 # Tindor
-A website making with boostrap. Just for practicing use it.
+A website making up with boostrap css.
 
 Website: [tindog](https://youming16.github.io/Tindog/)
 
